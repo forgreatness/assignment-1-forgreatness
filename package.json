@@ -1,0 +1,28 @@
+{
+  "name": "assignment-1-forgreatness",
+  "version": "1.0.0",
+  "description": "Design a RESTful API for a Yelp-like application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "SET NODE_ENV=development & nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osu-cs493-sp19/assignment-1-forgreatness.git"
+  },
+  "author": "Danh Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osu-cs493-sp19/assignment-1-forgreatness/issues"
+  },
+  "homepage": "https://github.com/osu-cs493-sp19/assignment-1-forgreatness#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
